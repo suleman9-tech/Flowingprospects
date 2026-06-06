@@ -725,38 +725,12 @@
 
     <section id="request">
       <div class="container">
-        <div class="section-head">
-          <div class="kicker">Request database form</div>
-          <h2>Request My Database</h2>
-          <p class="section-copy">Tell us what market you want and what fields you need included.</p>
+        <div class="card">
+          <div class="kicker">Request database</div>
+          <h2>Ready To Request Your Custom Database?</h2>
+          <p class="section-copy">After reviewing your estimated quote, submit your full request through our secure request form. We will review your requirements, confirm feasibility, final price, and delivery time before payment.</p>
+          <a class="button primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfPojN8Yd8OCBccUXhmb7pO4PkEboQnGq3Hj4thQosZJhM49w/viewform" target="_blank" rel="noopener noreferrer" style="margin-top:28px">Submit Database Request</a>
         </div>
-        <form class="card form-grid" id="request-form" novalidate>
-          <div class="field"><label for="fullName">Full Name *</label><input id="fullName" name="fullName" autocomplete="name" /></div>
-          <div class="field"><label for="company">Company Name</label><input id="company" name="company" /></div>
-          <div class="field"><label for="email">Email Address *</label><input id="email" name="email" type="email" autocomplete="email" /></div>
-          <div class="field"><label for="website">Website</label><input id="website" name="website" placeholder="https://example.com" /></div>
-          <div class="field"><label for="phone">Phone Number</label><input id="phone" name="phone" autocomplete="tel" /></div>
-          <div class="field"><label for="quantity">Desired Target Quantity</label><input id="quantity" name="quantity" inputmode="numeric" placeholder="Example: 500" /></div>
-          <div class="full-span"><label>Industries *</label><div class="checkbox-grid" id="industryChecks">
-            <label class="check-row"><input type="checkbox" name="industries" value="Roofing Contractors" checked />Roofing Contractors</label><label class="check-row"><input type="checkbox" name="industries" value="HVAC Companies"  />HVAC Companies</label><label class="check-row"><input type="checkbox" name="industries" value="Dentists"  />Dentists</label><label class="check-row"><input type="checkbox" name="industries" value="Lawyers"  />Lawyers</label><label class="check-row"><input type="checkbox" name="industries" value="Insurance Agencies"  />Insurance Agencies</label><label class="check-row"><input type="checkbox" name="industries" value="Real Estate Agencies"  />Real Estate Agencies</label><label class="check-row"><input type="checkbox" name="industries" value="Property Management Companies"  />Property Management Companies</label><label class="check-row"><input type="checkbox" name="industries" value="Solar Installers"  />Solar Installers</label><label class="check-row"><input type="checkbox" name="industries" value="Commercial Cleaning Companies"  />Commercial Cleaning Companies</label><label class="check-row"><input type="checkbox" name="industries" value="Marketing Agencies"  />Marketing Agencies</label><label class="check-row"><input type="checkbox" name="industries" value="Staffing Agencies"  />Staffing Agencies</label><label class="check-row"><input type="checkbox" name="industries" value="Accounting Firms"  />Accounting Firms</label><label class="check-row"><input type="checkbox" name="industries" value="Restaurants"  />Restaurants</label><label class="check-row"><input type="checkbox" name="industries" value="Medical Clinics"  />Medical Clinics</label><label class="check-row"><input type="checkbox" name="industries" value="Manufacturing Companies"  />Manufacturing Companies</label><label class="check-row"><input type="checkbox" name="industries" value="Logistics Companies"  />Logistics Companies</label><label class="check-row"><input type="checkbox" name="industries" value="Freight Brokers"  />Freight Brokers</label><label class="check-row"><input type="checkbox" name="industries" value="IT Companies"  />IT Companies</label><label class="check-row"><input type="checkbox" name="industries" value="SaaS Companies"  />SaaS Companies</label><label class="check-row"><input type="checkbox" name="industries" value="Other"  />Other</label>
-          </div></div>
-          <div class="field"><label for="formCoverage">Coverage *</label><select id="formCoverage"><option value="">Select coverage</option><option>Single City</option><option>Multiple Cities</option><option>Entire State</option><option>Multiple States</option><option>Nationwide</option></select></div>
-          <div class="field"><label for="formEmailReq">Email Requirement</label><select id="formEmailReq"><option>Not Needed</option><option>Email Where Available</option><option>Email Priority</option></select></div>
-          <div class="field"><label for="minRating">Minimum Rating</label><select id="minRating"><option>None</option><option>4.0+</option><option>4.5+</option></select></div>
-          <div class="field"><label for="minReviews">Minimum Reviews</label><select id="minReviews"><option>None</option><option>10+</option><option>50+</option><option>100+</option></select></div>
-          <div class="full-span"><label>Required Fields *</label><div class="checkbox-grid" id="fieldChecks">
-            <label class="check-row"><input type="checkbox" name="fields" value="Business Name" checked />Business Name</label><label class="check-row"><input type="checkbox" name="fields" value="Website" checked />Website</label><label class="check-row"><input type="checkbox" name="fields" value="Phone Number" checked />Phone Number</label><label class="check-row"><input type="checkbox" name="fields" value="Address" checked />Address</label><label class="check-row"><input type="checkbox" name="fields" value="Email"  />Email</label><label class="check-row"><input type="checkbox" name="fields" value="Rating"  />Rating</label><label class="check-row"><input type="checkbox" name="fields" value="Review Count"  />Review Count</label><label class="check-row"><input type="checkbox" name="fields" value="LinkedIn"  />LinkedIn</label>
-          </div></div>
-          <div class="field"><label for="format">Delivery Format *</label><select id="format"><option value="">Select format</option><option>Excel</option><option>CSV</option><option>Google Sheets</option></select></div>
-          <div class="field"><label for="time">Delivery Time *</label><select id="time"><option value="">Select time</option><option>24 Hours</option><option>48 Hours</option><option>3 Days</option><option>1 Week</option></select></div>
-          <div class="field full-span"><label for="notes">Additional Notes</label><textarea id="notes"></textarea></div>
-          <div class="field full-span"><label for="examples">Example Businesses</label><textarea id="examples" placeholder="Share examples of businesses that match your ideal target."></textarea></div>
-          <div class="full-span">
-            <p style="margin:0 0 14px;color:#475569;font-size:14px">After reviewing your estimated quote, submit the request form and we will confirm feasibility, final price, and delivery time before payment.</p>
-            <button class="button primary full" type="submit">Request My Database</button>
-            <div class="form-message" id="formMessage"></div>
-          </div>
-        </form>
       </div>
     </section>
 
@@ -894,13 +868,6 @@
       }
     });
 
-    document.getElementById("request-form").addEventListener("submit", (event) => {
-      event.preventDefault();
-      const msg = document.getElementById("formMessage");
-      msg.className = "form-message success";
-      window.open(googleFormUrl, "_blank", "noopener,noreferrer");
-      msg.textContent = "The request form opened in a new tab.";
-    });
   </script>
 </body>
 </html>

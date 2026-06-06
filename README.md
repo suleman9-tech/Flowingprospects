@@ -1,9 +1,30 @@
 # FlowingProspects
 
-Static GitHub Pages upload package for the FlowingProspects landing page.
+Static GitHub Pages website for FlowingProspects.
 
-Upload these files to the root of your GitHub repository, then enable GitHub Pages from the repository settings.
+FlowingProspects provides custom prospect databases built to exact market specifications.
 
-For a custom GoDaddy domain, add the domain in GitHub Pages settings. GitHub will create or ask for a CNAME value, then GoDaddy DNS needs to point to GitHub Pages.
+## Live Website
 
-Note: the request form validates on the page for preview purposes. Connect it to a form service, email service, or backend before using it to collect real customer requests.
+https://flowingprospects.us
+
+## Request Form
+
+https://docs.google.com/forms/d/e/1FAIpQLSfPojN8Yd8OCBccUXhmb7pO4PkEboQnGq3Hj4thQosZJhM49w/viewform
+
+## Contact Email
+
+flowingprospects@gmail.com
+
+## Current Sample PDFs
+
+- FlowingProspects_Roofing_One_Page_Table_Sample.pdf
+- FlowingProspects_HVAC_One_Page_Table_Sample.pdf
+- FlowingProspects_Dental_One_Page_Table_Sample.pdf
+
+## Deployment
+
+This is a static site deployed through GitHub Pages.
+The main website file is index.html.
+Sample PDFs are stored in the samples folder.
+The CNAME file connects the custom domain flowingprospects.us.
